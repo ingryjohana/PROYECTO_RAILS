@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :posts
+  resources :users
   #root 'application#saludar'
   root 'personas#datos'
   # The priority is based upon order of creation: first created -> highest priority.
