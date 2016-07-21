@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 gem 'rails',       '5.0.0'
 gem 'puma',         '3.4.0'
-gem 'sass-rails',   '5.0.5'
 gem 'uglifier',     '3.0.0'
 gem 'coffee-rails', '4.2.1'
 gem 'jquery-rails', '4.1.1'
@@ -21,3 +20,6 @@ group :development do
 end# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'sass-rails', '>= 3.2'
